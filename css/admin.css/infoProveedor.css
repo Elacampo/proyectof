@@ -1,0 +1,49 @@
+/* Estilos para el contenedor */
+.information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Estilos para los elementos dentro del contenedor */
+.provider-form {
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.provider-form label {
+    font-weight: bold;
+}
+
+.provider-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.provider-form .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+.provider-form .btn-back {
+    background-color: #ddd;
+}
+
+.provider-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.provider-form .btn-back:hover,
+.provider-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}

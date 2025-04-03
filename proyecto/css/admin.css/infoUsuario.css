@@ -1,0 +1,118 @@
+.home .text {
+    border-bottom: 3px solid #001aff9a;
+}
+
+.inicio{
+    height: 100%;
+}
+
+
+.informacion-contenedor {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.row-name .nombre,
+.row-name .apellido {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.email,
+.password,
+.rol {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.generar-qr{
+    padding: 10px 20px; 
+    background-color: #4CAF50;
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.borrar-icon{
+    height: 100%;
+}
+
+input[type="text"], input[type="password"], input[type="date"],select {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.borrar-icon{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: red;
+    padding: 5px;
+}
+
+.bxs-trash{
+    color: white;
+}
+
+input[type="submit"], .btn-volver {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius:6px;
+}
+
+input[type="submit"]{
+    background-color: #007bff;
+}
+
+.btn-volver{
+    background-color: #00cccc;
+}
+
+input[type="submit"]:hover{
+    background-color: #0056b3;
+}
+
+.btn-volver:hover {
+    background-color: #09a5a5;
+}
+
+form label {
+    font-weight: bold;
+}
+

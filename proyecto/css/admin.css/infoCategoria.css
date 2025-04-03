@@ -1,0 +1,9 @@
+.contenedor-resultados{
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    justify-content: center;
+}

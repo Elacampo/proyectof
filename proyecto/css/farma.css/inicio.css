@@ -1,0 +1,49 @@
+
+.row{
+    display: flex;
+    gap: 20px;
+}
+
+.cajaE{
+    padding: 10px;
+    border: 3px solid #88baff;
+    background-color: #edeef1 ;
+    width: 100vh;
+    color: black;
+    border-radius: 5px;
+}
+
+.opciones{
+    padding: 20px;
+    border-top: 3px solid #001aff9a; 
+}
+
+.box-opc{
+    text-decoration: none;
+    width: 100vh;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 3px solid #88baff;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    color: black;
+}
+
+.box-opc:hover{
+    transform: scale(1.05);
+}
+
+
+body.dark .box-opc, body.dark .cajaE{
+    background: var(--primary-color-light);
+    border: 3px solid #88baff;
+    color:var(--text-color)
+}
+
+
+
